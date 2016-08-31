@@ -10,6 +10,21 @@ endif
 
 let g:colors_name = "monokai"
 
+let s:background = "#272822"
+let s:comments   = "#75715e"
+let s:emphasis   = "#f8f8f0"
+let s:foreground = "#f8f8f2"
+let s:gray       = "#64645e"
+let s:highlight  = "#49483e"
+let s:linenumber = "#90908a"
+let s:blue       = "#66d9ef"
+let s:green      = "#a6e22e"
+let s:orange     = "#fd971f"
+let s:red        = "#f92672"
+let s:violet     = "#ae81ff"
+let s:yellow     = "#e6db74"
+
+
 hi Cursor ctermfg=235 ctermbg=231 cterm=NONE guifg=#272822 guibg=#f8f8f0 gui=NONE
 hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#49483e gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
@@ -45,7 +60,7 @@ hi Function ctermfg=148 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NON
 hi Identifier ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
 hi Keyword ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
 hi Label ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
-hi NonText ctermfg=59 ctermbg=236 cterm=NONE guifg=#49483e guibg=#31322c gui=NONE
+hi NonText ctermfg=59 ctermbg=236 cterm=NONE guifg=#90908a guibg=#272822 gui=NONE
 hi Number ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
 hi Operator ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
 hi PreProc ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
